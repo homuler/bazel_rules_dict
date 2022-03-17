@@ -46,7 +46,7 @@ some_rule(
 
 ## ATTENTION!
 `merge_dict` provides `ValueInfo`, which is of course not a `dict` itself.\
-Also, if an attribute of a rule requires a `dict`, you cannot pass a `label` instead of a `dict`.\
+Also, if an attribute of a rule requires a `dict` (i.e. `attr.label_keyed_string_dict`, `attr.string_dict`, `attr.string_list_dict`), you cannot pass a `label` instead of a `dict`.\
 Therefore, it does not work seamlessly with existing rules.
 
 ## Notes
